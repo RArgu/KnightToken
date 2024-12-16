@@ -1,5 +1,8 @@
 import random
 import json
+import sys
+
+from assignAuras import num_knights
 
 # Define original trait quotas
 original_traits = {
@@ -154,7 +157,10 @@ def generate_knights(num_knights):
 # Main script
 if __name__ == "__main__":
     try:
-        num_knights = int(input("Enter the number of knights to generate: "))
+        if len(sys.argv) > 1:
+            num_knights = sys.argv[1]
+        else:
+            num_knights = int(input("Enter the number of knights to generate: "))
         knights = generate_knights(num_knights)
         with open(f"knights_metadata_{num_knights}.json", "w") as f:
             json.dump(knights, f, indent=4)
