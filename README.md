@@ -1,5 +1,5 @@
 
-# **Leveraging AI Tools to Create an NFT Collection **
+# Leveraging AI Tools to Create an NFT Collection
 
 ### **Inspiration**
 As a person that is good at programming but bad at art, I wanted to see if I would be able to leverage artificial intelligence tools to create a collection of fantasy-themed NFTs that had multiple variations of characters, races, weapons, powers, and more.
@@ -47,20 +47,24 @@ We take all of these components and build json files that define the characteris
 ## **KnightToken**
 After the images are generated and uploaded, the metadata is modified so that each knight's corresponding json file points to the right image. After that, all that's left is to mint as many tokens as we want (spoiler: this is not true) and have each token be associated with a particular knight image and metadata.
 
-The generated NFT collection is visible on this [OpenSea (Testnet) Collection](https://testnets.opensea.io/collection/knight-tkn). Metadata and images are stored on IPFS for decentralized access:
-- [Metadata Storage](https://ipfs.io/ipfs/bafybeigs6mglxbhb37oqppb2wc32tyb4jguctuexsii7ho3ynlwcavnhxm/)
-- [Image Storage](https://ipfs.io/ipfs/bafybeidx5z4k2cacjpw74b2uxcw4hxt2r4xz5loxc2qgh63sgkaf3kzaie/)
+## **View the Resulting NFT Collection**
+
+The generated Knight NFT collection can be viewed on OpenSea's testnet platform:
+- **[Knight Token Collection on OpenSea](https://testnets.opensea.io/collection/knight-tkn)**
+
+---
+
+## **IPFS Storage Links**
+
+- **[Metadata Storage](https://ipfs.io/ipfs/bafybeigs6mglxbhb37oqppb2wc32tyb4jguctuexsii7ho3ynlwcavnhxm/):** Contains metadata JSON files for all knights.
+- **[Image Storage](https://ipfs.io/ipfs/bafybeidx5z4k2cacjpw74b2uxcw4hxt2r4xz5loxc2qgh63sgkaf3kzaie/):** Contains knight images (e.g., `knight1.png`, `knight2.png`).
 
 ---
 ## **Notes**
 
 - All the cool races, effects, multiple skin tones, and whatnot were planned but simplified to less features because of time constraints. For now, be satisfied with background, headgear, armor, weapons, eyes, expression, shield.
 - In total, there are 5184 variants that can be created. Only 100 were minted though because of storage space limitations but the capability is there.
-- The process of generating images went as follows: 
-- 1. 
-1. Generate metadata (json) files for each knight
-- 2. Generate knight image by layering sprites based off metadata (e.g. common shield, rare sword, etc.)
-- 3. Store
+
 ---
 ## **Requirements**
 
@@ -138,25 +142,12 @@ Where `X` corresponds to each knight’s ID.
 
 ---
 
-## **View the Resulting NFT Collection**
-
-The generated Knight NFT collection can be viewed on OpenSea's testnet platform:
-- **[Knight Token Collection on OpenSea](https://testnets.opensea.io/collection/knight-tkn)**
-
----
-
-## **IPFS Storage Links**
-
-- **[Metadata Storage](https://ipfs.io/ipfs/bafybeigs6mglxbhb37oqppb2wc32tyb4jguctuexsii7ho3ynlwcavnhxm/):** Contains metadata JSON files for all knights.
-- **[Image Storage](https://ipfs.io/ipfs/bafybeidx5z4k2cacjpw74b2uxcw4hxt2r4xz5loxc2qgh63sgkaf3kzaie/):** Contains knight images (e.g., `knight1.png`, `knight2.png`).
-
----
-
 ## **Output**
 
 ### **Metadata JSON File**
 Each JSON file contains metadata in the following format:
-```json
+
+~~```json
 {
     "name": "Knight #1",
     "description": "Collection of chibi knights with multiple weapons, armor, and more!",
@@ -173,6 +164,39 @@ Each JSON file contains metadata in the following format:
         {"trait_type": "Eye Color", "value": "Brown"},
         {"trait_type": "Skin Tone", "value": "Light"},
         {"trait_type": "Hair Color", "value": "Black"}
+    ]
+}~~
+
+```json
+{
+    "name": "Knight #1",
+    "description": "Collection of chibi knights with multiple weapons, armor, and more!",
+    "image": "https://ipfs.io/ipfs/bafybeidx5z4k2cacjpw74b2uxcw4hxt2r4xz5loxc2qgh63sgkaf3kzaie/knight1.png",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Forest"
+        },
+        {
+            "trait_type": "Armor",
+            "value": "Common"
+        },
+        {
+            "trait_type": "Expression eye",
+            "value": "Angry brown"
+        },
+        {
+            "trait_type": "Sword",
+            "value": "Rare"
+        },
+        {
+            "trait_type": "Shield",
+            "value": "Common"
+        },
+        {
+            "trait_type": "Headgear",
+            "value": "None"
+        }
     ]
 }
 ```
