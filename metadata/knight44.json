@@ -1,0 +1,31 @@
+{
+    "name": "Knight #44",
+    "description": "Collection of chibi knights with multiple weapons, armor, and more!",
+    "image": "https://ipfs.io/ipfs/bafybeidx5z4k2cacjpw74b2uxcw4hxt2r4xz5loxc2qgh63sgkaf3kzaie/knight44.png",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Castle town"
+        },
+        {
+            "trait_type": "Armor",
+            "value": "Common"
+        },
+        {
+            "trait_type": "Expression eye",
+            "value": "Neutral green"
+        },
+        {
+            "trait_type": "Sword",
+            "value": "Uncommon"
+        },
+        {
+            "trait_type": "Shield",
+            "value": "Common"
+        },
+        {
+            "trait_type": "Headgear",
+            "value": "None"
+        }
+    ]
+}

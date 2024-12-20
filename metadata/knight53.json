@@ -1,0 +1,31 @@
+{
+    "name": "Knight #53",
+    "description": "Collection of chibi knights with multiple weapons, armor, and more!",
+    "image": "https://ipfs.io/ipfs/bafybeidx5z4k2cacjpw74b2uxcw4hxt2r4xz5loxc2qgh63sgkaf3kzaie/knight53.png",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Dungeon"
+        },
+        {
+            "trait_type": "Armor",
+            "value": "Legendary"
+        },
+        {
+            "trait_type": "Expression eye",
+            "value": "Angry green"
+        },
+        {
+            "trait_type": "Sword",
+            "value": "Common"
+        },
+        {
+            "trait_type": "Shield",
+            "value": "Rare"
+        },
+        {
+            "trait_type": "Headgear",
+            "value": "None"
+        }
+    ]
+}
