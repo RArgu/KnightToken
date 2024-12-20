@@ -6,7 +6,7 @@ As a person that is good at programming but bad at art, I wanted to see if I wou
 
 Free AI tools that let you generate art were an amazing asset that I wanted to use to create these multiple variations of knights. Using a simple prompt like `"Generate an image of a chibi knight, pixel art style"` yields the following:
 
-<img src="sprites/knight1.jpg" width="128"> <img src="sprites/knight2.jpg" width="128"> <img src="sprites/knight4.jpg" width="128"> <img src="sprites/holy_knight.png" width="128">
+<img src="sample_knights/knight1.jpg" width="128"> <img src="sample_knights/knight2.jpg" width="128"> <img src="sample_knights/knight4.jpg" width="128"> <img src="sample_knights/holy_knight.png" width="128">
 
 Very cool! But there's one problem... the styles are all over the place. It is very difficult to get AI tools to generate images in styles or with variations as consistent as one would need for an NFT collection.
 
@@ -64,6 +64,25 @@ The generated Knight NFT collection can be viewed on OpenSea's testnet platform:
 
 - All the cool races, effects, multiple skin tones, and whatnot were planned but simplified to less features because of time constraints. For now, be satisfied with background, headgear, armor, weapons, eyes, expression, shield.
 - In total, there are 5184 variants that can be created. Only 100 were minted though because of storage space limitations but the capability is there.
+
+---
+## **Contents**
+
+### knights 
+Contains images of the generated knights. In the format `knight##.png`
+
+### metadata 
+Contains files with metadata for each knight. In the format `knight##.json`
+
+### sample_knights
+Contains some reference knights
+
+### sol 
+Contains solidity files used to mint the NFTs. One is flattened, one isn't
+
+### sprites 
+Collection of images used to layer and build the knights
+
 
 ---
 ## **Requirements**
