@@ -6,10 +6,7 @@ As a person that is good at programming but bad at art, I wanted to see if I wou
 
 Free AI tools that let you generate art were an amazing asset that I wanted to use to create these multiple variations of knights. Using a simple prompt like `"Generate an image of a chibi knight, pixel art style"` yields the following:
 
-<img src="sprites/knight1.jpg" width="128">
-<img src="sprites/knight2.jpg" width="128">
-<img src="sprites/knight4.jpg" width="128">
-<img src="sprites/holy_knight.png" width="128">
+<img src="sprites/knight1.jpg" width="128"> <img src="sprites/knight2.jpg" width="128"> <img src="sprites/knight4.jpg" width="128"> <img src="sprites/holy_knight.png" width="128">
 
 Very cool! But there's one problem... the styles are all over the place. It is very difficult to get AI tools to generate images in styles or with variations as consistent as one would need for an NFT collection.
 
@@ -19,45 +16,31 @@ I opted instead to generate some images roughly in the style I wanted and then e
 
 Backgrounds:
 
-<img src="sprites/background_castle.png" width="128">
-<img src="sprites/background_forest.png" width="128">
-<img src="sprites/background_graveyard.png" width="128">
-<img src="sprites/background_dungeon.png" width="128">
+<img src="sprites/background_castle.png" width="128"> <img src="sprites/background_forest.png" width="128"> <img src="sprites/background_graveyard.png" width="128"> <img src="sprites/background_dungeon.png" width="128">
 
 Headgear:
 
-<img src="sprites/crown_common.png" width="128">
-<img src="sprites/crown_rare.png" width="128">
+<img src="sprites/crown_common.png" width="128"> <img src="sprites/crown_rare.png" width="128">
 
 Expressions (sample):
 
-<img src="sprites/determined_brown.png" width="128">
-<img src="sprites/angry_blue.png" width="128">
-<img src="sprites/smirking_green.png" width="128">
+<img src="sprites/determined_brown.png" width="128"> <img src="sprites/angry_blue.png" width="128"> <img src="sprites/smirking_green.png" width="128">
 
 
 Armors:
 
-<img src="sprites/armor_common.png" width="128">
-<img src="sprites/armor_rare.png" width="128">
-<img src="sprites/armor_legendary.png" width="128">
+<img src="sprites/armor_common.png" width="128"> <img src="sprites/armor_rare.png" width="128"> <img src="sprites/armor_legendary.png" width="128">
 
 Swords:
 
-<img src="sprites/sword_common.png" width="128">
-<img src="sprites/sword_uncommon.png" width="128">
-<img src="sprites/sword_rare.png" width="128">
-<img src="sprites/sword_legendary.png" width="128">
+<img src="sprites/sword_common.png" width="128"> <img src="sprites/sword_uncommon.png" width="128"> <img src="sprites/sword_rare.png" width="128"> <img src="sprites/sword_legendary.png" width="128">
 
 We take all of these components and build json files that define the characteristics of a given knight. Then, we take the sprite images those separate components point to and layer them one atop the other using a script. Of course, when assigning characteristics to each knight we account for each attribute's rarity. We can't have every chump rocking a diamond sword, they're called legendary weapons for a reason!
 
 ---
 
 ## **Resulting Images**
-<img src="knights/knight10.png" width="128">
-<img src="knights/knight95.png" width="128">
-<img src="knights/knight12.png" width="128">
-<img src="knights/knight41.png" width="128">
+<img src="knights/knight10.png" width="128"> <img src="knights/knight95.png" width="128"> <img src="knights/knight12.png" width="128"> <img src="knights/knight41.png" width="128">
 
 ---
 
