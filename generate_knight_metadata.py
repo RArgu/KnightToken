@@ -71,6 +71,8 @@ rarity_weights = {
     "headgear": {"none": 85, "common": 10, "rare": 5},
 }
 
+image_cid = "bafybeiahnlpcj4nralx2iiw3ndtu7txn5dbr6ijpakseclm2haha3nugku"
+
 
 # Function to randomly select a trait based on weights
 def select_variant(options, weights):
@@ -82,7 +84,7 @@ def generate_knight_metadata(knight_id):
     metadata = {
         "name": f"Knight #{knight_id}",
         "description": "Collection of chibi knights with multiple weapons, armor, and more!",
-        "image": f"https://ipfs.io/ipfs/bafybeiahnlpcj4nralx2iiw3ndtu7txn5dbr6ijpakseclm2haha3nugku/knight{knight_id}.png",
+        "image": f"https://ipfs.io/ipfs/"+image_cid+"/knight{knight_id}.png",
         "attributes": []
     }
 
