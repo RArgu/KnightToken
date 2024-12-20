@@ -29,7 +29,7 @@ Headgear:
 <img src="sprites/crown_common.png" width="128">
 <img src="sprites/crown_rare.png" width="128">
 
-Expressions:
+Expressions (sample):
 
 <img src="sprites/determined_brown.png" width="128">
 <img src="sprites/angry_blue.png" width="128">
